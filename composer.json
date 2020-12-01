@@ -1,0 +1,32 @@
+{
+    "name": "lisq/yii2-s",
+    "description": "using Yii2 support swoole",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "swoole"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "lisq",
+            "email": "mail@lishunqi.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "yiisoft/yii2": "^2.0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "lisq\\s\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "bootstrap": "lisq\\s\\DependencyInjection"
+    }
+}
