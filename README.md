@@ -1,7 +1,7 @@
 此项目正在开发中
 
 ```bash
-$ compose require lisqorz/yii2-s
+$ compose require lisq/yii2-s
 
 $ yii s/{start|reload|restart|stop|status}
 
