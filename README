@@ -1,4 +1,4 @@
-```
+```php
         'errorHandler' => [
             'class' => \lisq\s\hook\web\SErrorHandler::class,
             'silentExitOnException' => true,
